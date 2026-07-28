@@ -25,6 +25,7 @@
     "eslint/no-underscore-dangle": "allow",
     "unicorn/require-post-message-target-origin": "allow", // false-positive
     "eslint/curly": "error",
+    "unicorn/prefer-node-protocol": "error",
     "import-js/order": [
       "error",
       {

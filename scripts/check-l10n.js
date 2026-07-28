@@ -8,8 +8,8 @@
 //
 // Exit code is non-zero if any locale fails, so this doubles as a CI gate.
 
-const fs = require("fs");
-const path = require("path");
+const fs = require("node:fs");
+const path = require("node:path");
 
 const L10N_DIR = path.join(__dirname, "..", "l10n");
 const EN_FILE = "bundle.l10n.json";
