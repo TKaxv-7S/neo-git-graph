@@ -5,3 +5,8 @@
 *.vsix
 
 *.orig
+
+# nix / direnv
+/.direnv/
+/result
+/result-*
