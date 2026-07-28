@@ -1,4 +1,7 @@
 {
-  "extends": "../tsconfig.json",
-  "exclude": ["webview"]
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["node", "vscode"]
+  },
+  "exclude": ["./webview"]
 }
