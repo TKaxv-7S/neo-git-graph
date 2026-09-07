@@ -5,7 +5,7 @@ import * as vscode from "vscode";
 import { rpcNotify } from "@/extension/rpc/rpc-notify";
 import { logger } from "@/extension/util/logger";
 
-const REFRESH_DELAY = 750;
+const REFRESH_DELAY = 250;
 const GIT_DATA = /^(HEAD|config|index|packed-refs|refs(?:\/.*)?)$/;
 
 let selectRepo: ((repo: string) => void) | undefined;
